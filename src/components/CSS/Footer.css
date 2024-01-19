@@ -1,0 +1,66 @@
+/* @media screen and (max-width:600px) {
+    
+} */
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+    /* color-scheme: dark; */
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+.footer-logo{
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 0;
+}
+.discription{
+    font-weight: lighter;
+    text-wrap: balance;
+    text-align: center;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    /* color: black; */
+    padding: 1rem;
+}
+.footer-nav a{
+    color: white;
+}
+.NewsLetter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    gap: 1rem;
+}
+.NewsLetter h1{
+    margin: 0;
+}
+.Form{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.From,.input{
+    border: none;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 1rem;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    min-width: 200px;
+}

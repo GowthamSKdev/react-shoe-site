@@ -1,0 +1,21 @@
+.CartItems{
+    padding: 1rem;
+}
+.cartitems-main-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.productDetails img{
+    width: 100px;
+}
+.pay-container{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* justify-content: right; */
+    /* text-align: end; */
+}
