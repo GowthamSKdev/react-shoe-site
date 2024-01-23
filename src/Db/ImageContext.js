@@ -1,10 +1,10 @@
-import w_1 from '../assets/women/w_shoe (1).png'
-import w_2 from '../assets/women/w_shoe (2).png'
-import w_3 from '../assets/women/w_shoe (3).png'
-import w_4 from '../assets/women/w_shoe (4).png'
-import w_5 from '../assets/women/w_shoe (5).png'
-import w_6 from '../assets/women/w_shoe (6).png'
-import w_7 from '../assets/women/w_shoe (7).png'
+import w_1 from '/women/w_shoe (1).png'
+import w_2 from '/women/w_shoe (2).png'
+import w_3 from '/women/w_shoe (3).png'
+import w_4 from '/women/w_shoe (4).png'
+import w_5 from '/women/w_shoe (5).png'
+import w_6 from '/women/w_shoe (6).png'
+import w_7 from '/women/w_shoe (7).png'
 
 export const w_shoes = [
     {png:w_1},
@@ -16,13 +16,13 @@ export const w_shoes = [
     {png:w_7},
 ]
 
-import m_1 from '../assets/men/m_shoe (1).png'
-import m_2 from '../assets/men/m_shoe (2).png'
-import m_3 from '../assets/men/m_shoe (3).png'
-import m_4 from '../assets/men/m_shoe (4).png'
-import m_5 from '../assets/men/m_shoe (5).png'
-import m_6 from '../assets/men/m_shoe (6).png'
-import m_7 from '../assets/men/m_shoe (7).png'
+import m_1 from '/men/m_shoe (1).png'
+import m_2 from '/men/m_shoe (2).png'
+import m_3 from '/men/m_shoe (3).png'
+import m_4 from '/men/m_shoe (4).png'
+import m_5 from '/men/m_shoe (5).png'
+import m_6 from '/men/m_shoe (6).png'
+import m_7 from '/men/m_shoe (7).png'
 
 export const m_shoes = [
     {png:m_1},
@@ -34,17 +34,17 @@ export const m_shoes = [
     {png:m_7},
 ]
 
-import c_1 from '../assets/children/c_shoe (1).png'
-import c_2 from '../assets/children/c_shoe (2).png'
-import c_3 from '../assets/children/c_shoe (3).png'
-import c_4 from '../assets/children/c_shoe (4).png'
-import c_5 from '../assets/children/c_shoe (5).png'
-import c_6 from '../assets/children/c_shoe (6).png'
-import c_7 from '../assets/children/c_shoe (7).png'
-import c_8 from '../assets/children/c_shoe (8).png'
-import c_9 from '../assets/children/c_shoe (9).png'
-import c_10 from '../assets/children/c_shoe (10).png'
-import c_11 from '../assets/children/c_shoe (11).png'
+import c_1 from '/children/c_shoe (1).png'
+import c_2 from '/children/c_shoe (2).png'
+import c_3 from '/children/c_shoe (3).png'
+import c_4 from '/children/c_shoe (4).png'
+import c_5 from '/children/c_shoe (5).png'
+import c_6 from '/children/c_shoe (6).png'
+import c_7 from '/children/c_shoe (7).png'
+import c_8 from '/children/c_shoe (8).png'
+import c_9 from '/children/c_shoe (9).png'
+import c_10 from '/children/c_shoe (10).png'
+import c_11 from '/children/c_shoe (11).png'
 
 
 export const c_shoes = [

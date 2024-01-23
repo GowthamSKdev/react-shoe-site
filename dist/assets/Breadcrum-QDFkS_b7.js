@@ -1,0 +1,1 @@
+import{j as a}from"./index-lAFVJHIf.js";const e=s=>{const{product:r}=s;return a.jsxs("div",{className:"breadcrum",children:["Home ",a.jsx("i",{className:"fa-solid fa-arrow-right"}),"Shop",a.jsx("i",{className:"fa-solid fa-arrow-right"}),a.jsx("a",{href:`/${r.catagory}`,children:r.catagory}),a.jsx("i",{className:"fa-solid fa-arrow-right"}),r.name]})};export{e as default};
