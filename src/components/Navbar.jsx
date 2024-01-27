@@ -11,32 +11,32 @@ const Navbar = () => {
     <>
       <div className="container">
         <div className="nav-wrapper">
-          <Link to="/" className="logo">Shoe Site</Link>
+          <NavLink to="/" className="logo">Shoe Site</NavLink>
           <div className="nav-item">
-            <Link to="/" className='nav-link'>Shop</Link>
-            <Link to="/men" className='nav-link'>Men</Link>
-            <Link to="/women" className='nav-link'>Women</Link>
-            <Link to="/kids" className='nav-link'>Kids</Link>
+            <NavLink to="/" className='nav-link'>Shop</NavLink>
+            <NavLink to="/men" className='nav-link'>Men</NavLink>
+            <NavLink to="/women" className='nav-link'>Women</NavLink>
+            <NavLink to="/kids" className='nav-link'>Kids</NavLink>
           </div>
           <div className="login">
             
-              <Link to={'/cart'} className="cart">
+              <NavLink to={'/cart'} className="cart">
 
                 <i className="fa-solid fa-cart-shopping"></i>
                 <div className="right-text">
                   Cart
                 </div>
-              </Link>
+              </NavLink>
             
-            <Link to="/login" className="login-btn">
+            <NavLink to="/login" className="login-btn">
               <i className="fa-regular fa-user"></i>
               <div className="right-text">
                 Login
               </div>
-            </Link>
-            <Link className='bar' onClick={togglemenu}>
+            </NavLink>
+            <NavLink className='bar' onClick={togglemenu}>
               <i className='fa-solid fa-bars'></i>
-            </Link>
+            </NavLink>
           </div>
         </div>
       </div>
@@ -48,24 +48,24 @@ const Navbar = () => {
             <i className='fa-solid fa-xmark' onClick={togglemenu}></i>
           </div>
           <div className="side-menu-items">
-            <Link to="/" className='side-nav-link'>Shop</Link>
-            <Link to="/men" className='side-nav-link'>Men</Link>
-            <Link to="/women" className='side-nav-link'>Women</Link>
-            <Link to="/kids" className='side-nav-link'>Kids</Link>
+            <NavLink to="/" className='side-nav-link'>Shop</NavLink>
+            <NavLink to="/men" className='side-nav-link'>Men</NavLink>
+            <NavLink to="/women" className='side-nav-link'>Women</NavLink>
+            <NavLink to="/kids" className='side-nav-link'>Kids</NavLink>
           </div>
           <div className="side-menu-items">
             <div className="side-nav-link">
-              <Link to="/cart" className='cart'>
+              <NavLink to="/cart" className='cart'>
                 <i className='fa-solid fa-cart-shopping'></i>
                 Cart
-              </Link>
+              </NavLink>
             </div>
             {/* <a> */}
             <div className="side-nav-link">
-              <Link to="/login" className="login-btn">
+              <NavLink to="/login" className="login-btn">
                 <i className='fa-solid fa-user'></i>
                 Login
-              </Link>
+              </NavLink>
             </div>
             {/* </a> */}
           </div>
