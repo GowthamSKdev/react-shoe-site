@@ -24,7 +24,7 @@ const ShopCatagory = (props) => {
 
   return (
     <>
-      <Offer className='offer' />
+      {/* <Offer className='offer' /> */}
       <div className="shop-catagory">
         <div className="shopcatagory-indexSort">
           <p><span>Showing 1-12</span>out of 26 Shoes</p>
