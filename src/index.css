@@ -46,6 +46,7 @@ img{
   gap: 1rem;
   border-radius: 10px;
   font-weight: 400;
+  padding:1rem;
 }
 
 /* @media (prefers-color-scheme: light) {
