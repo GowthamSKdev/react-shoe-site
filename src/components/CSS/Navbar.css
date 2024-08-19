@@ -3,9 +3,12 @@
     width: 100%;
     top: 0;
     left: 0;
+    right: 0;
     z-index: 99;
-    position: sticky;
-    background-color: dark;
+    position: fixed;
+    padding: 10px 25px;
+    background-color: #ffffff80;
+    backdrop-filter: blur(10px);
 }
 
 .nav-wrapper{
@@ -17,6 +20,7 @@
 .nav-item{
     display: flex;
     gap: 1rem;
+    color: black ;
 }
 .logo{
     font-family: serif;
@@ -40,12 +44,14 @@
 
 .side-menu{
     z-index: 100;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
     width: 80%;
-    background-color: black;
+    background-color: #ffffff80;
     height: 100vh;
+    backdrop-filter: blur(10px);
 }
 .side-menu-top{
     display: flex;
@@ -64,10 +70,12 @@
     flex-direction: column;
     gap: 1rem;
     margin-top: 2rem;
+    color: black;
 }
 .side-nav-link{
     padding: 1vw 5vw;
     font-size: 4vw;
+    color: black;
 }
 
 
