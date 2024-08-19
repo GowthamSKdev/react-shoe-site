@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/CartItems-Dwa3_x9V.js","assets/index-D9ti7_PQ.js","assets/index-Cj41j8tX.css","assets/CartItems-DMRAKemc.css"])))=>i.map(i=>d[i]);
+import{r,_ as s,j as t}from"./index-D9ti7_PQ.js";const a=r.lazy(()=>s(()=>import("./CartItems-Dwa3_x9V.js"),__vite__mapDeps([0,1,2,3]))),o=()=>t.jsx("div",{className:"Cart",children:t.jsx(a,{})});export{o as default};
